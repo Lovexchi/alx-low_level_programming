@@ -16,8 +16,9 @@ while (i < n)
 printf("%d", a[i]);
 
 if (i < n - 1)
-{														printf(", ");
+{printf(", ");
 }
-i++;														}
+i++;}
 
 printf("\n");
+}
