@@ -1,21 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* _strlen - prints length of string
-*
-* @s: pointer
-* Return: count (length of string)
-*/
+ *_strlen -length of a string
+ *@s: A pointer to an int that will be changed/updated
+ *
+ *Return: void that means our answer is correct
+ */
 
 int _strlen(char *s)
 {
-int count = 0;
+	int u;
 
-for (; *s != '\0'; s++)
-{
-count++;
-}
-
-return (count);
+	u = 0;
+	while (s[u] != '\0')
+	{
+		u++;
+	}
+	return (u);
 }
